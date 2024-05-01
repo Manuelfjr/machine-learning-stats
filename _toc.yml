@@ -4,6 +4,7 @@
 format: jb-book
 root: index
 chapters:
+  - file: ml-book/01.projeto-01-interpretabilidade_modelos
   - file: ml-book/markdown
   - file: ml-book/notebooks
   - file: ml-book/bibliography
