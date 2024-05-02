@@ -10,7 +10,7 @@ toc = {
                 {"file": "ml-book/01.guide/o_que_e_ml"},
                 {"file": "ml-book/01.guide/o_que_e_estatistica"},
                 {"file": "ml-book/01.guide/relacao_ml_estatistica"},
-                {"file": "ml-book/01.guide/markdown"},
+                # {"file": "ml-book/01.guide/markdown"},
                 {"file": "ml-book/01.guide/notebooks"},
                 {"file": "ml-book/01.guide/exercicios"},
             ],
