@@ -13,13 +13,78 @@ root: index
 
 # Or you organize the TOC by parts
 
+# chapters:
+#   - file: ml-book/01.projeto-01-interpretabilidade_modelos
+#   - file: ml-book/markdown
+#   - file: ml-book/notebooks
+
+
+# Or you organize the TOC by parts
+
 parts:
   - caption: Introdução
-    numbered: true
-    maxdepth: 1
+    # numbered: true
+    maxdepth: 2
     chapters:
+      - file: ml-book/01.guide/o_que_e_ml
+      - file: ml-book/01.guide/o_que_e_estatistica
       - file: ml-book/01.guide/markdown
       - file: ml-book/01.guide/notebooks
-  - caption: Appendices
+      - file: ml-book/01.guide/exercicios
+
+  - caption: Fundamentos de Estatística
+    # numbered: true
+    maxdepth: 2
+    chapters:
+      # - file: ml-book/01.guide/markdown
+      - file: ml-book/02.stats/medidas_centralidade_dispersao
+      - file: ml-book/02.stats/probabilidade
+      - file: ml-book/02.stats/inferencia_estatistica
+      - file: ml-book/02.stats/regressao_linear
+      - file: ml-book/02.stats/exercicios
+      # - file: ml-book/01.guide/markdown
+
+  - caption: Machine Learning Supervisionado
+    # numbered: true
+    maxdepth: 2
+    chapters:
+      - file: ml-book/03.supervisioned/introducao
+      - file: ml-book/03.supervisioned/regressao_linear_logistica
+      - file: ml-book/03.supervisioned/arvores_decisao
+      - file: ml-book/03.supervisioned/random_forests
+      - file: ml-book/03.supervisioned/svms
+      - file: ml-book/03.supervisioned/notebooks
+      - file: ml-book/03.supervisioned/exercicios
+
+  - caption: Machine Learning Não Supervisionado
+    # numbered: true
+    maxdepth: 2
+    chapters:
+      - file: ml-book/04.non_supervisioned/introducao
+      - file: ml-book/04.non_supervisioned/clustering
+      - file: ml-book/04.non_supervisioned/reducao_dimensionalidade
+      - file: ml-book/04.non_supervisioned/exercicios
+
+  - caption: Tópicos Avançados
+    # numbered: true
+    maxdepth: 2
+    chapters:
+      - file: ml-book/05.advanced/topicos_avancados/aprendizado_profundo
+      - file: ml-book/05.advanced/topicos_avancados/aprendizado_reforco
+      - file: ml-book/05.advanced/topicos_avancados/ml_explicavel
+    chapters:
+      - file: ml-book/06.applications/ml_financas
+      - file: ml-book/06.applications/ml_saude
+      - file: ml-book/06.applications/ml_marketing
+      - file: ml-book/06.applications/exercicios
+
+  - caption: Conclusão
+    # numbered: true
+    maxdepth: 2
+    chapters:
+      - file: ml-book/07.conclusion/tendencias_futuras
+      - file: ml-book/07.conclusion/recursos_adicionais
+
+  - caption: Referências
     chapters:
       - file: ml-book/08.references/bibliography
