@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>9. Regressao Linear &#8212; Machine Learning and Statistic from scratch</title>
+    <title>Aprendizado Supervisionado &#8212; Machine Learning and Statistic from scratch</title>
   
   
   
@@ -57,13 +57,13 @@
     <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'ml-book/02.stats/regressao_linear';</script>
-    <link rel="canonical" href="https://manuelfjr.github.io/machine-learning-stats/ml-book/02.stats/regressao_linear.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'ml-book/guide/02_notebooks';</script>
+    <link rel="canonical" href="https://manuelfjr.github.io/machine-learning-stats/ml-book/guide/02_notebooks.html" />
     <link rel="icon" href="../../_static/github.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="10. Exercicios" href="exercicios.html" />
-    <link rel="prev" title="8. Inferencia Estatistica" href="inferencia_estatistica.html" />
+    <link rel="next" title="Referências" href="../_bibliography/references.html" />
+    <link rel="prev" title="Machine Learning" href="01_first.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -172,25 +172,13 @@
  </script></div>
         <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item navbar-nav active">
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Introdução</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../01.guide/o_que_e_ml.html">1. O Que E Ml</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../01.guide/o_que_e_estatistica.html">2. O Que E Estatistica</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../01.guide/markdown.html">3. Markdown Files</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../01.guide/notebooks.html">4. Content with notebooks</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../01.guide/exercicios.html">5. Exercicios</a></li>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Introdução</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="01_first.html">Machine Learning</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Aprendizado Supervisionado</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Fundamentos de Estatística</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="medidas_centralidade_dispersao.html">6. Medidas Centralidade Dispersao</a></li>
-<li class="toctree-l1"><a class="reference internal" href="probabilidade.html">7. Probabilidade</a></li>
-<li class="toctree-l1"><a class="reference internal" href="inferencia_estatistica.html">8. Inferencia Estatistica</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">9. Regressao Linear</a></li>
-<li class="toctree-l1"><a class="reference internal" href="exercicios.html">10. Exercicios</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Referências</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../08.references/bibliography.html">Bibliography</a></li>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../_bibliography/references.html">Referências</a></li>
 </ul>
 
     </div>
@@ -245,7 +233,7 @@
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/manuelfjr/machine-learning-stats/master?urlpath=tree/ml-book/02.stats/regressao_linear.ipynb" target="_blank"
+      <li><a href="https://mybinder.org/v2/gh/manuelfjr/machine-learning-stats/master?urlpath=tree/ml-book/guide/02_notebooks.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch onBinder"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -263,7 +251,7 @@
       
       
       
-      <li><a href="https://colab.research.google.com/github/manuelfjr/machine-learning-stats/blob/master/ml-book/02.stats/regressao_linear.ipynb" target="_blank"
+      <li><a href="https://colab.research.google.com/github/manuelfjr/machine-learning-stats/blob/master/ml-book/guide/02_notebooks.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch onColab"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -329,7 +317,7 @@
       
       
       
-      <li><a href="https://github.com/manuelfjr/machine-learning-stats/edit/main/ml-book/02.stats/regressao_linear.ipynb" target="_blank"
+      <li><a href="https://github.com/manuelfjr/machine-learning-stats/edit/main/ml-book/guide/02_notebooks.ipynb" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -346,7 +334,7 @@
       
       
       
-      <li><a href="https://github.com/manuelfjr/machine-learning-stats/issues/new?title=Issue%20on%20page%20%2Fml-book/02.stats/regressao_linear.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/manuelfjr/machine-learning-stats/issues/new?title=Issue%20on%20page%20%2Fml-book/guide/02_notebooks.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -376,7 +364,7 @@
       
       
       
-      <li><a href="../../_sources/ml-book/02.stats/regressao_linear.ipynb" target="_blank"
+      <li><a href="../../_sources/ml-book/guide/02_notebooks.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -458,7 +446,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Regressao Linear</h1>
+    <h1>Aprendizado Supervisionado</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -472,8 +460,16 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="regressao-linear">
-<h1><span class="section-number">9. </span>Regressao Linear<a class="headerlink" href="#regressao-linear" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="aprendizado-supervisionado">
+<h1>Aprendizado Supervisionado<a class="headerlink" href="#aprendizado-supervisionado" title="Link to this heading">#</a></h1>
+<p>O aprendizado supervisionado é um dos principais métodos de Machine Learning. Neste tipo de aprendizado, fornecemos ao algoritmo um conjunto de dados que contém tanto as características (ou entradas) quanto as respostas corretas (ou saídas). O objetivo do algoritmo é aprender a mapear as entradas para as saídas corretas.</p>
+<p>Existem dois tipos principais de problemas de aprendizado supervisionado:</p>
+<ul class="simple">
+<li><p><strong>Regressão</strong>: Quando a saída é uma quantidade contínua, como a temperatura ou o preço de uma casa.</p></li>
+<li><p><strong>Classificação</strong>: Quando a saída é uma categoria, como “spam” ou “não spam” para e-mails.</p></li>
+</ul>
+<p>Alguns dos algoritmos mais comuns de aprendizado supervisionado incluem regressão linear, regressão logística, máquinas de vetores de suporte (SVMs), árvores de decisão e florestas aleatórias.</p>
+<p>Nesta seção, vamos explorar cada um desses algoritmos em detalhes, entender como eles funcionam, como treiná-los e avaliar seu desempenho. Além disso, também discutiremos sobre a importância do pré-processamento de dados e a otimização de hiperparâmetros nestes algoritmos.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -489,7 +485,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./ml-book/02.stats"
+            path: "./ml-book/guide"
         },
         predefinedOutput: true
     }
@@ -507,20 +503,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="inferencia_estatistica.html"
+       href="01_first.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">8. </span>Inferencia Estatistica</p>
+        <p class="prev-next-title">Machine Learning</p>
       </div>
     </a>
     <a class="right-next"
-       href="exercicios.html"
+       href="../_bibliography/references.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">10. </span>Exercicios</p>
+        <p class="prev-next-title">Referências</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
