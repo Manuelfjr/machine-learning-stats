@@ -22,7 +22,7 @@ format: jb-book
 root: index
 
 chapters:
-  - file: ml-book/intro
+  # - file: ml-book/intro
   - file: ml-book/guide/01_first
     sections:
       - file: ml-book/guide/02_notebooks

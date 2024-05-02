@@ -5,7 +5,7 @@
 
 #######################################################################################
 # Book settings
-title: Machine Learning and Statistic from scratch # The title of the book. Will be placed in the left navbar.
+title: Machine Learning e Estatística do zero # Machine Learning and Statistic from scratch # The title of the book. Will be placed in the left navbar.
 author: Manuel Ferreira Junior # The author of the book
 copyright: "2024" # Copyright year to be placed in the footer
 logo: assets/logo_new.png # A path to the book logo
@@ -88,7 +88,7 @@ sphinx:
   config:
     # html_extra_path: ["CNAME", "robots.txt"]
     html_theme_options:
-      logo_text: "Machine Learning and Statistic from scratch"
+      logo_text: "Machine Learning e Estatística do zero" # "Machine Learning and Statistic from scratch"
       use_download_button: true
       repository_url: https://github.com/manuelfjr/machine-learning-stats
       use_issues_button: true
