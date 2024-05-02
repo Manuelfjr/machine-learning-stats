@@ -26,8 +26,8 @@ chapters:
   - file: ml-book/guide/01_first
     sections:
       - file: ml-book/guide/02_notebooks
+  - file: ml-book/advanced/01.projeto-01-interpretabilidade_modelos
   - file: ml-book/_bibliography/references
-
 # parts:
 #   - caption: Introdução
 #     numbered: true
