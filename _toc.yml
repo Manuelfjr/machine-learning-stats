@@ -3,21 +3,23 @@
 
 format: jb-book
 root: index
-chapters:
-  - file: ml-book/01.projeto-01-interpretabilidade_modelos
-  - file: ml-book/markdown
-  - file: ml-book/notebooks
-  - file: ml-book/bibliography
+# parts:
+# chapters:
+#   - file: ml-book/01.projeto-01-interpretabilidade_modelos
+#   - file: ml-book/markdown
+#   - file: ml-book/notebooks
+#   - file: ml-book/bibliography
+
 
 # Or you organize the TOC by parts
 
-# parts:
-#   - caption: Chapters
-#     numbered: true
-#     maxdepth: 2
-#     chapters:
-#       - file: book/markdown
-#       - file: book/notebooks
-#   - caption: Appendices
-#     chapters:
-#       - file: book/bibliography
+parts:
+  - caption: Introdução
+    numbered: true
+    maxdepth: 1
+    chapters:
+      - file: ml-book/01.guide/markdown
+      - file: ml-book/01.guide/notebooks
+  - caption: Appendices
+    chapters:
+      - file: ml-book/08.references/bibliography
