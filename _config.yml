@@ -111,4 +111,4 @@ sphinx:
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
-  - ml-book/08.references/references.bib
+   - ml-book/_bibliography/references.bib
